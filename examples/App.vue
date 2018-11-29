@@ -67,7 +67,7 @@
 </template>
 
 <script>
-import VueFroala from 'src';
+import VueFroala from 'src/index';
 
 export default {
   name: 'app',
