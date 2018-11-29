@@ -56,6 +56,9 @@ export default (Vue, Options = {}) => {
         // Editor element.
         _$editor: null,
 
+        // Editor object.
+        _$editorObject: null,
+
         // Current config.
         currentConfig: null,
 
@@ -97,7 +100,8 @@ export default (Vue, Options = {}) => {
         this.setContent(true);
 
         this.registerEvents();
-        this._$editor = this._$element.froalaEditor(this.currentConfig).data('froala.editor').$el;
+        this._$editorObject = this._$element.froalaEditor(this.currentConfig).data('froala.editor');
+        this._$editor = this._$editorObject.$el;
         this.initListeners();
 
         this.editorInitialized = true;
