@@ -41,6 +41,7 @@
     "release": "webpack --progress --hide-modules --config  ./build/webpack.release.js && NODE_ENV=production webpack --progress --hide-modules --config  ./build/webpack.release.min.js",
     "prepublish": "yarn run build"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "froala-editor": "2.9.1",
     "vue": "^2.2.4"
