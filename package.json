@@ -1,30 +1,13 @@
 {
-  "name": "vue-froala-wysiwyg",
+  "name": "ing-vue-froala-wysiwyg",
   "version": "2.9.1",
   "description": "Vue plugin for Froala WYSIWYG HTML rich text editor.",
   "author": "Froala Labs (https://www.froala.com/)",
-  "license": "https://froala.com/wysiwyg-editor/terms/",
+  "license": "https://opensource.org/licenses/MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/froala/vue-froala-wysiwyg.git"
+    "url": "https://github.com/jasonmlkang/vue-froala-wysiwyg.git"
   },
-  "bugs": {
-    "url": "https://github.com/froala/angular2-froala-wysiwyg/issues"
-  },
-  "keywords": [
-    "vue",
-    "froala",
-    "html",
-    "text",
-    "editor",
-    "wysisyg",
-    "jquery-plugin",
-    "rich editor",
-    "rich text editor",
-    "rte",
-    "javascript",
-    "jquery"
-  ],
   "main": "dist/vue-froala.js",
   "unpkg": "dist/vue-froala.min.js",
   "module": "es/index.js",
